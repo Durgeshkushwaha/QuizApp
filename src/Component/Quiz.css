@@ -1,0 +1,41 @@
+.app {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    /* position: absolute; */
+}
+
+li {
+    
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(64, 109, 109);
+    border-radius: 20px;
+}
+
+li:hover {
+    background-color: rgb(70, 205, 160);
+}
+
+.selected {
+    background-color: rgb(2, 108, 173);
+}
+
+.button {
+    background-color: rgb(5, 173, 92);
+    border-radius: 20px;
+    width: 60%;
+    cursor: pointer;
+}
+
+.button-disable {
+    border-radius: 20px;
+    width: 60%;
+    cursor: not-allowed;
+}
+
+/* export default  Quiz */
